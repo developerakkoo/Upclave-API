@@ -1,0 +1,20 @@
+{
+  "name": "upclave-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "firebase": "^9.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1",
+    "multer": "^1.4.4",
+    "razorpay": "^2.8.1"
+  }
+}
