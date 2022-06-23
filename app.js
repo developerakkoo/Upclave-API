@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const multer = require("multer");
 const path = require("path");
+const cors = require("cors");
 
 //Routes
 const appRoute = require('./Controller/Routes/appRoute');
@@ -13,6 +14,7 @@ const app = express();
 
 
 app.use(express.json());
+app.use(cors);
 
 
 const diskStorage = multer.diskStorage({
